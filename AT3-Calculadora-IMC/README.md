@@ -15,7 +15,7 @@ Este projeto utilizou inteligência artificial (Gemini) estritamente como ferram
 
 ## 💻 Deploy e Acesso ao Projeto
 - **Aceder à Calculadora de IMC:** [🚀 Clique aqui para testar a Calculadora de IMC](https://paulo984-ss.github.io/sites/atividade%20imc1.html)
-- **Portal Principal:** [🔗 Aceder ao site principal de projetos](https://paulo984-ss.github.io/sites/)
+
 
 ---
 
