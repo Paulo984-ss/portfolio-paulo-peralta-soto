@@ -1,38 +1,22 @@
-# 🎬 Nome do Projeto
+# 🧮 Calculadora de IMC (Índice de Massa Corporal)
+
 ## 📝 Descrição do Projeto
-Este projeto consiste em um motor de recomendação inteligente que
-utiliza técnicas de filtragem colaborativa e baseada em conteúdo. O
-objetivo principal é mitigar a "paralisia de escolha", oferecendo aos
-usuários sugestões personalizadas com base em seu histórico de
-visualização e preferências de gênero.
-Desenvolvido como parte das disciplinas de **Desenvolvimento Front-End
-Para Web (2026.2)**, o sistema processa grandes volumes de dados
-(datasets de filmes e avaliações) para identificar padrões de
-comportamento e similaridades entre títulos, utilizando algoritmos de
-aprendizado de máquina para prever a nota que um usuário daria a um
-filme ainda não assistido.
+Este projeto consiste numa aplicação web simples e funcional desenvolvida em **HTML5** e **JavaScript** (incorporado) para calcular o Índice de Massa Corporal (IMC) de um utilizador[cite: 7]. A ferramenta recolhe os valores de peso e altura inseridos, efetua o tratamento de dados (substituindo vírgulas por pontos para garantir a leitura correta de números decimais) e calcula o IMC aplicando a fórmula padrão, classificando o resultado de acordo com as faixas de peso recomendadas (desde baixo peso até obesidade grau III)[cite: 7].
+
 ## 🚀 Tecnologias Utilizadas
-* **Linguagem:** HTML5, CSS e JavaScript
-* **Bibliotecas:** Bootstrap
-* **Ferramentas:** VSCode
-* **Modelo de IA:** Gemini
-## 📊 Resultados e Aprendizados
-O projeto alcançou resultados sólidos em ambiente de teste, demonstrando
-a eficácia do modelo híbrido.
-* **O modelo atingiu 92% de acurácia** nos testes de validação.
-* **Redução de Ruído:** Aprendi a aplicar técnicas de limpeza e
-normalização de dados para melhorar a performance dos algoritmos.
-* **Visualização de Clusters:** Implementei gráficos que mostram como o
-sistema agrupa filmes por afinidade.
+- **Linguagens:** HTML5 e JavaScript (Vanilla)
+- **Ferramentas:** VSCode e Git/GitHub Pages
+
+## 📂 Estrutura do Arquivo
+- `atividade imc1.html`: Arquivo principal contendo toda a estrutura da interface de usuário e os scripts de cálculo do IMC[cite: 7].
+
 ## 🧠 Declaração de Uso Ético da IA
-Este projeto utilizou inteligência artificial ([Nome do Modelo, ex:
-ChatGPT / GitHub Copilot]) estritamente como ferramenta de suporte
-tecnológico para [Finalidade, ex: estruturação inicial do HTML e
-depuração de funções em JavaScript]. Todo o código gerado foi revisado,
-testado e compreendido por mim, garantindo a minha responsabilidade
-integral sobre a autoria final, integridade e funcionamento da
-aplicação.
-## 💻 Deploy do projeto
-[Clique para acessar](https://seu-usuario.github.io/xxxxxxxxx/)
+Este projeto utilizou inteligência artificial (Gemini) estritamente como ferramenta de suporte tecnológico para auxílio na estruturação de lógica em JavaScript e refinamento do código. Todo o código foi devidamente revisado, testado e adaptado por mim, garantindo a minha responsabilidade integral sobre a autoria, lógica e funcionamento da aplicação.
+
+## 💻 Deploy e Acesso ao Projeto
+- **Aceder à Calculadora de IMC:** [🚀 Clique aqui para testar a Calculadora de IMC](https://paulo984-ss.github.io/sites/atividade%20imc1.html)
+- **Portal Principal:** [🔗 Aceder ao site principal de projetos](https://paulo984-ss.github.io/sites/)
+
 ---
-[Voltar ao início](https://github.com/seu-usuario/portfolio-usuario)
+
+[⬅️ Voltar ao início](https://github.com/paulo984-ss)
