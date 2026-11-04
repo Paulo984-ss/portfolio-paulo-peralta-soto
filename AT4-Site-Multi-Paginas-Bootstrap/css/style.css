@@ -1,0 +1,21 @@
+.minha-imagem-card{
+    max-width: 60%;      
+    height: auto;        
+    display: block;       
+    margin: 0 auto;
+}
+#carouselExample img {
+    height: 350px;
+    object-fit: cover;
+}
+@media (max-width: 576px) {
+    #carouselExample img {
+        height: 220px;
+    }
+}
+.minha-imagem-card/exploracao.jpg{
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomia e Exploração Espacial</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body class="bg-dark text-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-info" href="index.html"> Astronomia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Universo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="planetas.html">Planetas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="missoes.html">Missões Espaciais</a></li>
+                    <li class="nav-item"><a class="nav-link" href="curiosidades.html">Curiosidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carrosselEspaco" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/fundo.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Planeta Terra">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                    <h2>Exploração do Universo</h2>
+                    <p>sistema solar, missões históricas, telescópios e descobertas recentes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container my-5">
+    <div class="text-center mb-4">
+        <h1 class="fw-bold">Bem-vindo ao Portal de Astronomia</h1>
+        <p class="text-secondary">
+            Explore artigos, dados históricos e descobertas recentes sobre o espaço.
+        </p>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <div class="col-12 col-md-9 col-lg-8">
+        <div class="card bg-black text-light h-100">
+            <div id="carouselSistemaSolar"
+                 class="carousel slide"
+                 data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/sistema-solar.jpg"
+                             class="d-block w-100 minha-imagem-card"
+                             alt="Sistema Solar">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/mercurio.jpg"
+                             class="d-block w-100 minha-imagem-card"
+                             alt="Mercurio">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/venus.jpg"
+                             class="d-block w-100 minha-imagem-card"
+                             alt="Planeta venus">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/terra.jpg"
+                             class="d-block w-100 minha-imagem-card"
+                             alt="Planeta ">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/marte.jpg"
+                             class="d-block w-100 minha-imagem-card"
+                             alt="Planeta ">
+                    </div>
+                     <div class="carousel-item">
+                        <img src="image/jupiter.jpg"
+                             class="d-block w-100 minha-imagem-card"
+                             alt="Planeta ">
+                    </div>
+                     <div class="carousel-item">
+                        <img src="image/saturno.jpg"
+                             class="d-block w-100 minha-imagem-card"
+                             alt="Planeta ">
+                    </div>
+                     <div class="carousel-item">
+                        <img src="image/urano.jpg"
+                             class="d-block w-100 minha-imagem-card"
+                             alt="Planeta ">
+                    </div>
+                     <div class="carousel-item">
+                        <img src="image/netuno.jpg"
+                             class="d-block w-100 minha-imagem-card"
+                             alt="Planeta ">
+                    </div>
+                </div>
+                <button class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselSistemaSolar"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselSistemaSolar"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Próxima</span>
+                </button>
+            </div>
+                <div class="card-body">
+                    <h5 class="card-title">Sistema Solar</h5>
+                    <p class="card-text">
+                       O Sistema Solar é composto por oito planetas, conforme se considera hoje em dia, além de planetas anões e corpos celestes, como asteroides, meteoros, cometas e satélites.
+                    </p>
+                    <p>
+                        O Sistema Solar é um conjunto formado por oito planetas e outros corpos celestes, que orbitam o Sol, a sua principal estrela. Está localizado na Via Láctea, uma das galáxias que formam o Universo. São planetas do Sistema Solar: Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano e Netuno.
+                    </p>
+                    <a href="planetas.html" class="btn btn-primary">Ver Mais Sobre Planetas</a>
+                </div>
+            </div>
+        </div>
+    </div>    
+<div class="row g-4 justify-content-center">
+    <div class="col-12 col-md-9 col-lg-8">       
+        <div class="card bg-black text-light h-100">
+            <div id="carouselExample"
+                 class="carousel slide"
+                 data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/exploracao.jpg"
+                             class="d-block w-100"
+                             alt="Exploração espacial">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/exp.jpg"
+                             class="d-block w-100"
+                             alt="Imagem da exploração espacial">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/exp1.jpg"
+                             class="d-block w-100"
+                             alt="Missão espacial">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/exp2.jpg"
+                             class="d-block w-100"
+                             alt="Exploração do Universo">
+                    </div>
+                </div>
+                <button class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"
+                          aria-hidden="true"></span>
+
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"
+                          aria-hidden="true"></span>
+
+                    <span class="visually-hidden">Próxima</span>
+                </button>
+            </div>
+                 <div class="card-body">
+                    <h5 class="card-title">Missões Espaciais</h5>
+                    <p class="card-text">
+                     São expedições fora da Terra que usam satélites, sondas e naves tripuladas para estudar o universo e criar novas tecnologias.
+                    <p>
+                        <i class="bi bi-rocket-takeoff-fill"></i>
+                        Missão Apollo 11
+
+                    Em 1969, a Apollo 11 levou os primeiros seres humanos à superfície da Lua. Neil Armstrong e Buzz Aldrin caminharam em solo lunar, marcando um dos momentos mais importantes da história da exploração espacial.
+                    </p>
+                    <p>
+                    <i class="bi bi-rocket-takeoff-fill"></i>
+                      Missões a Marte
+                    Missões como a Mars Rover Perseverance exploram a superfície de Marte em busca de sinais de vida antiga. Esses robôs analisam rochas, estudam o clima e ajudam a preparar futuras missões tripuladas ao planeta.
+                    </p>
+                    <p>
+                        <i class="bi bi-rocket-takeoff-fill"></i>
+                         Estação Espacial Internacional (ISS)
+
+                    A ISS é um laboratório em órbita da Terra onde astronautas de diferentes países realizam experimentos científicos. As pesquisas contribuem para avanços na medicina, na tecnologia e na exploração espacial.
+                    </p>
+                    <p>
+                        <i class="bi bi-rocket-takeoff-fill"></i>
+                       Telescópio Espacial James Webb
+
+                     Lançado em 2021, o James Webb observa galáxias distantes, estrelas em formação e atmosferas de exoplanetas. Suas descobertas ajudam os cientistas a investigar a origem e a evolução do Universo.
+                    </p>
+                    <p>
+                        <i class="bi bi-rocket-takeoff-fill"></i>
+                        Programa Artemis
+
+                    O programa Artemis, da NASA, tem como objetivo levar astronautas novamente à Lua e desenvolver tecnologias para futuras explorações humanas de Marte.
+
+                    Conclusão: As missões espaciais ampliam nosso conhecimento sobre o Universo e abrem caminho para novas descobertas científicas e tecnológicas.
+                    </p>
+                    <a href="missoes.html" class="btn btn-primary">Ver mais sobre Missões Espaciais</a>
+            </div>
+        </div>       
+    </div>
+</div>
+<div class="row g-4 justify-content-center">
+    <div class="col-12 col-md-9 col-lg-8">
+        <div class="card bg-black text-light h-100">
+            <div id="carouselCuriosidades" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/curiosidade1.jpg"
+                             class="d-block w-100 minha-imagem-card"
+                             alt="Curiosidades sobre galáxias">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/curiosidade2.jpg"
+                             class="d-block w-100 minha-imagem-card"
+                             alt="Curiosidades sobre o espaço">
+                    </div>
+                </div>
+                <button class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselCuriosidades"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+
+                <button class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselCuriosidades"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Próxima</span>
+                </button>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Curiosidades da Astronomia</h5>
+                <p class="card-text">
+                    Descubra fatos interessantes sobre as galáxias,
+                    as estrelas e os mistérios do Universo.
+                </p>
+                <a href="curiosidades.html" class="btn btn-primary">Ver Curiosidades</a>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+
+    <footer class="bg-black text-center text-secondary py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">© 2026 Astronomia & Exploração Espacial</p>
+        </div>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
