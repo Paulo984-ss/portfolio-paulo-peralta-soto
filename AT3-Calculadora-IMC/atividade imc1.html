@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+</head>
+
+<body>
+
+    <h1>Calculador de IMC</h1>
+
+    <p>Peso:</p>
+    <input type="text" id="peso">
+
+    <p>Altura:</p>
+    <input type="text" id="altura">
+
+    <button type="button" onclick="calcularIMC()">CALCULAR</button>
+
+    <p id="mensagem"></p>
+
+
+    <script>
+
+        function calcularIMC() {
+
+            let peso = document.getElementById("peso").value;
+            let altura = document.getElementById("altura").value;
+
+            // Troca a vírgula por ponto
+            peso = parseFloat(peso.replace(",", "."));
+            altura = parseFloat(altura.replace(",", "."));
+
+            // Verifica se os valores são válidos
+            if (isNaN(peso) || isNaN(altura) || peso <= 0 || altura <= 0) {
+
+                document.getElementById("mensagem").innerHTML =
+                    "Digite um peso e uma altura válidos.";
+
+                return;
+            }
+
+            // Fórmula do IMC
+            let imc = peso / (altura * altura);
+
+            let classificacao;
+
+
+            if (imc < 18.5) {
+
+                classificacao = "Baixo peso";
+
+            } else if (imc < 25) {
+
+                classificacao = "Peso normal";
+
+            } else if (imc < 30) {
+
+                classificacao = "Sobrepeso";
+
+            } else if (imc < 35) {
+
+                classificacao = "Obesidade grau I";
+
+            } else if (imc < 40) {
+
+                classificacao = "Obesidade grau II";
+
+            } else {
+
+                classificacao = "Obesidade grau III (mórbida)";
+            }
+
+
+            // Exibe o resultado
+            document.getElementById("mensagem").innerHTML =
+                "Seu IMC é: " + imc.toFixed(2) +
+                " kg/m² - " + classificacao;
+
+        }
+
+    </script>
+
+</body>
+
+</html>
+
