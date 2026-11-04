@@ -23,25 +23,3 @@ Você pode conferir o resultado final do portal funcionando diretamente através
 
 - **Site Oficial:** [https://paulo984-ss.github.io/sites/](https://paulo984-ss.github.io/sites/)
 
-Abaixo estão alguns trechos do código-fonte estruturados nas páginas do projeto:
-
-### Exemplo da Página Inicial (`index.html`)
-```html
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎮 GAMES_PPS - Início</title>
-    <link rel="stylesheet" href="css/games.css">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1 class="logo">🎮 GAMES_PPS</h1>
-            <p class="subtitle">O seu universo gamer</p>
-        </header>
-
-        <nav>
-            <ul>
-                <li><a class="active" href="index.html
