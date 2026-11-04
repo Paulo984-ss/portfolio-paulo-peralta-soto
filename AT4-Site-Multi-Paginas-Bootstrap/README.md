@@ -1,38 +1,28 @@
-# 🎬 Nome do Projeto
+# 🌌 Portal de Astronomia & Exploração Espacial
+
 ## 📝 Descrição do Projeto
-Este projeto consiste em um motor de recomendação inteligente que
-utiliza técnicas de filtragem colaborativa e baseada em conteúdo. O
-objetivo principal é mitigar a "paralisia de escolha", oferecendo aos
-usuários sugestões personalizadas com base em seu histórico de
-visualização e preferências de gênero.
-Desenvolvido como parte das disciplinas de **Desenvolvimento Front-End
-Para Web (2026.2)**, o sistema processa grandes volumes de dados
-(datasets de filmes e avaliações) para identificar padrões de
-comportamento e similaridades entre títulos, utilizando algoritmos de
-aprendizado de máquina para prever a nota que um usuário daria a um
-filme ainda não assistido.
+Este projeto consiste numa aplicação web completa desenvolvida em **HTML5**, **CSS3** e **Bootstrap 5**, dedicada ao tema da astronomia e exploração espacial[cite: 8, 9, 10, 11, 12]. O portal foi estruturado com um layout moderno, responsivo e em tema escuro (`dark mode`), dividindo-se em várias páginas modulares (`index.html`, `planetas.html`, `missoes.html`, `curiosidades.html` e `contato.html`) para proporcionar uma experiência imersiva aos utilizadores interessados no cosmos[cite: 8, 9, 10, 11, 12].
+
 ## 🚀 Tecnologias Utilizadas
-* **Linguagem:** HTML5, CSS e JavaScript
-* **Bibliotecas:** Bootstrap
-* **Ferramentas:** VSCode
-* **Modelo de IA:** Gemini
-## 📊 Resultados e Aprendizados
-O projeto alcançou resultados sólidos em ambiente de teste, demonstrando
-a eficácia do modelo híbrido.
-* **O modelo atingiu 92% de acurácia** nos testes de validação.
-* **Redução de Ruído:** Aprendi a aplicar técnicas de limpeza e
-normalização de dados para melhorar a performance dos algoritmos.
-* **Visualização de Clusters:** Implementei gráficos que mostram como o
-sistema agrupa filmes por afinidade.
+- **Linguagens:** HTML5, CSS3 e JavaScript (Bootstrap Bundle)[cite: 8, 9, 10, 11, 12]
+- **Framework:** Bootstrap 5.3[cite: 8, 9, 10, 11, 12]
+- **Ícones:** Bootstrap Icons[cite: 9, 10, 11, 12]
+- **Ferramentas:** VSCode e Git/GitHub Pages
+
+## 📂 Estrutura de Páginas e Processo de Desenvolvimento
+O site foi construído de forma modular com navegação fluida entre seções interativas baseadas em carrosséis de imagens e cartões informativos:
+- **`index.html` (Início / Universo):** Página principal que introduz o portal com um menu de navegação fixo, carrossel de apresentação e resumos detalhados sobre o Sistema Solar e as missões espaciais[cite: 10].
+- **`planetas.html` (Planetas):** Exibe um carrossel interativo detalhado com fichas informativas sobre cada um dos oito planetas do Sistema Solar (de Mercúrio a Netuno)[cite: 12].
+- **`missoes.html` (Missões Espaciais):** Agrupa marcos históricos e projetos da exploração espacial, como a Apollo 11, a Estação Espacial Internacional (ISS), o Telescópio James Webb, missões a Marte e o Programa Artemis[cite: 11].
+- **`curiosidades.html` (Curiosidades):** Aborda temas profundos e fascinantes do cosmos, incluindo buracos negros, matéria escura, energia escura, a imensidão do universo observável e exoplanetas[cite: 9].
+- **`contato.html` (Contato):** Disponibiliza informações institucionais de atendimento e um formulário de contacto estilizado com campos para nome, e-mail e envio de feedback[cite: 8].
+
 ## 🧠 Declaração de Uso Ético da IA
-Este projeto utilizou inteligência artificial ([Nome do Modelo, ex:
-ChatGPT / GitHub Copilot]) estritamente como ferramenta de suporte
-tecnológico para [Finalidade, ex: estruturação inicial do HTML e
-depuração de funções em JavaScript]. Todo o código gerado foi revisado,
-testado e compreendido por mim, garantindo a minha responsabilidade
-integral sobre a autoria final, integridade e funcionamento da
-aplicação.
-## 💻 Deploy do projeto
-[Clique para acessar](https://seu-usuario.github.io/xxxxxxxxx/)
+Este projeto utilizou inteligência artificial (Gemini) estritamente como ferramenta de suporte tecnológico para auxílio na estruturação de marcação HTML, organização dos componentes do Bootstrap e refinamento dos conteúdos textuais. Todo o código foi devidamente revisado, testado e adaptado por mim, garantindo a minha responsabilidade integral sobre a autoria, lógica e funcionamento da aplicação.
+
+## 💻 Deploy e Acesso ao Projeto
+- **Site Oficial do Trabalho:** [🚀 Clique aqui para aceder ao Portal de Astronomia oficial](https://paulo984-ss.github.io/Astronomia/)
+
 ---
-[Voltar ao início](https://github.com/seu-usuario/portfolio-usuario)
+
+[⬅️ Voltar ao início](https://github.com/paulo984-ss)
