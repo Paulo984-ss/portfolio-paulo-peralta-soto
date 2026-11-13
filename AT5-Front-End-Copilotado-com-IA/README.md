@@ -1,5 +1,6 @@
 # Porta de Entrada Fechada?
 
+![Ilustração do projeto: jovem desanimado diante do notebook, ao lado de um robô de IA e de uma vaga júnior substituída](image/ia-image.png)
 
 ## 1. Visão geral e preview
 
