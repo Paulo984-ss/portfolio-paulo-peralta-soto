@@ -1,2 +1,2 @@
-# portfolio-diego-marques-de-carvalho
+# portfolio-paulo-peralta
 Portfólio de projetos de Diego Marques de Carvalho
